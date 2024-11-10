@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.example.employee_management.entity.PerformanceReview;
 
-public interface PerfoemanceReviewRepository extends JpaRepository<PerformanceReview, Long>{
+public interface PerformanceReviewRepository extends JpaRepository<PerformanceReview, Long>{
 
 }
